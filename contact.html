@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact CareerPath Pro for professional career counseling services. Schedule your consultation today.">
+    <title>Contact Us - CareerPath Pro</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2><i class="fas fa-chart-line"></i> CareerPath Pro</h2>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="services.html" class="nav-link">Services</a>
+                <a href="contact.html" class="nav-link active">Contact</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>Ready to transform your career? Let's start the conversation.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Get in Touch</h2>
+                    <p>We're here to help you achieve your career goals. Reach out to us for a free consultation and discover how we can support your professional journey.</p>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="method-info">
+                                <h3>Phone</h3>
+                                <p>(555) 123-4567</p>
+                                <span>Mon-Fri, 9AM-6PM EST</span>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="method-info">
+                                <h3>Email</h3>
+                                <p>info@careerpathpro.com</p>
+                                <span>We respond within 24 hours</span>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="method-info">
+                                <h3>Office</h3>
+                                <p>123 Career Street<br>Success City, SC 12345</p>
+                                <span>By appointment only</span>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-video"></i>
+                            </div>
+                            <div class="method-info">
+                                <h3>Virtual Consultations</h3>
+                                <p>Zoom, Google Meet</p>
+                                <span>Available worldwide</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="office-hours">
+                        <h3>Office Hours</h3>
+                        <div class="hours-list">
+                            <div class="hour-item">
+                                <span>Monday - Friday:</span>
+                                <span>9:00 AM - 6:00 PM EST</span>
+                            </div>
+                            <div class="hour-item">
+                                <span>Saturday:</span>
+                                <span>10:00 AM - 2:00 PM EST</span>
+                            </div>
+                            <div class="hour-item">
+                                <span>Sunday:</span>
+                                <span>Closed</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contact-form">
+                        <h2>Send Us a Message</h2>
+                        <p>Fill out the form below and we'll get back to you within 24 hours.</p>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstName">First Name *</label>
+                                <input type="text" id="firstName" name="firstName" required>
+                                <span class="error-message" id="firstName-error"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName">Last Name *</label>
+                                <input type="text" id="lastName" name="lastName" required>
+                                <span class="error-message" id="lastName-error"></span>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+                            <span class="error-message" id="email-error"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                            <span class="error-message" id="phone-error"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="service">Service Interest</label>
+                            <select id="service" name="service">
+                                <option value="">Select a service...</option>
+                                <option value="career-assessment">Career Assessment</option>
+                                <option value="resume-writing">Resume & LinkedIn Optimization</option>
+                                <option value="interview-coaching">Interview Coaching</option>
+                                <option value="career-planning">Career Planning & Strategy</option>
+                                <option value="career-transition">Career Transition Support</option>
+                                <option value="executive-coaching">Executive Coaching</option>
+                                <option value="package-starter">Career Starter Package</option>
+                                <option value="package-professional">Career Professional Package</option>
+                                <option value="package-executive">Career Executive Package</option>
+                                <option value="consultation">Free Consultation</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="experience">Current Career Level</label>
+                            <select id="experience" name="experience">
+                                <option value="">Select your level...</option>
+                                <option value="entry-level">Entry Level (0-2 years)</option>
+                                <option value="mid-level">Mid Level (3-7 years)</option>
+                                <option value="senior-level">Senior Level (8-15 years)</option>
+                                <option value="executive">Executive (15+ years)</option>
+                                <option value="career-changer">Career Changer</option>
+                                <option value="returning">Returning to Work</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="timeline">When would you like to start?</label>
+                            <select id="timeline" name="timeline">
+                                <option value="">Select timeline...</option>
+                                <option value="immediately">Immediately</option>
+                                <option value="within-week">Within a week</option>
+                                <option value="within-month">Within a month</option>
+                                <option value="within-quarter">Within 3 months</option>
+                                <option value="flexible">I'm flexible</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Tell us about your career goals, challenges, or any specific questions you have..." required></textarea>
+                            <span class="error-message" id="message-error"></span>
+                        </div>
+
+                        <div class="form-group checkbox-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="newsletter" name="newsletter">
+                                <span class="checkmark"></span>
+                                Subscribe to our newsletter for career tips and updates
+                            </label>
+                        </div>
+
+                        <div class="form-group checkbox-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="terms" name="terms" required>
+                                <span class="checkmark"></span>
+                                I agree to the <a href="#" target="_blank">Terms of Service</a> and <a href="#" target="_blank">Privacy Policy</a> *
+                            </label>
+                            <span class="error-message" id="terms-error"></span>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary submit-btn">
+                            <span class="btn-text">Send Message</span>
+                            <span class="btn-loading" style="display: none;">
+                                <i class="fas fa-spinner fa-spin"></i> Sending...
+                            </span>
+                        </button>
+
+                        <div class="form-message" id="form-message"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How long does the career counseling process take?</h3>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>The duration varies depending on your goals and chosen services. A basic career assessment typically takes 2-3 sessions, while comprehensive career planning can extend over 3-6 months with ongoing support.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Do you offer virtual consultations?</h3>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes! We offer virtual consultations via Zoom, Google Meet, or phone calls. This allows us to work with clients worldwide and provides flexibility for busy schedules.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What should I expect in my first consultation?</h3>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Your first consultation is complimentary and lasts about 30 minutes. We'll discuss your career goals, challenges, and how our services can help. There's no pressure – it's an opportunity for us to get to know each other.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What if I'm not sure which service I need?</h3>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>That's perfectly normal! During your free consultation, we'll assess your situation and recommend the most appropriate services for your needs and goals.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Do you guarantee job placement?</h3>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>While we cannot guarantee job placement, we provide you with the tools, strategies, and support to significantly improve your chances of success. Our clients have a 95% success rate in achieving their career goals.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What are your payment options?</h3>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We accept major credit cards, bank transfers, and offer payment plans for our comprehensive packages. We'll work with you to find a payment solution that fits your budget.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Take the First Step?</h2>
+                <p>Your career transformation starts with a simple conversation. Schedule your free consultation today.</p>
+                <div class="cta-buttons">
+                    <a href="tel:+15551234567" class="btn btn-primary">Call Now: (555) 123-4567</a>
+                    <a href="mailto:info@careerpathpro.com" class="btn btn-outline">Email Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3><i class="fas fa-chart-line"></i> CareerPath Pro</h3>
+                    <p>Empowering professionals to achieve their career goals through expert guidance and personalized counseling services.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#" target="_blank">YouTube Channel</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html">Career Assessment</a></li>
+                        <li><a href="services.html">Resume Writing</a></li>
+                        <li><a href="services.html">Interview Coaching</a></li>
+                        <li><a href="services.html">Career Planning</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info">
+                        <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+                        <p><i class="fas fa-envelope"></i> info@careerpathpro.com</p>
+                        <p><i class="fas fa-map-marker-alt"></i> 123 Career Street, Success City, SC 12345</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 CareerPath Pro. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Files -->
+    <script src="js/navigation.js"></script>
+    <script src="js/form-validation.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
