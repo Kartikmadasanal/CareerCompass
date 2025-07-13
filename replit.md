@@ -1,8 +1,8 @@
-# CareerPath Pro - Career Counseling Website
+# Sachii Career Coach - Career Counseling Website
 
 ## Overview
 
-CareerPath Pro is a static website for a professional career counseling service. The website provides information about career counseling services, including career assessment, resume writing, interview coaching, and career planning. It's built as a multi-page HTML website with modern CSS styling and JavaScript functionality.
+Sachii Career Coach is a static website for a professional career counseling service. The website provides information about career counseling services, including career assessment, resume writing, interview coaching, and career planning. It's built as a multi-page HTML website with modern CSS styling and JavaScript functionality.
 
 ## System Architecture
 

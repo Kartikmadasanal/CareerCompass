@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Gallery showcasing CareerPath Pro's success stories, events, and professional development activities.">
+    <title>Gallery - CareerPath Pro</title>
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/gallery.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="Data/logo.jpg" height="8%" width="8%">
+                
+                <!-- <h2><i class="fas fa-chart-line"></i> CareerPath Pro</h2> -->
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="services.html" class="nav-link">Services</a>
+                <a href="gallery.html" class="nav-link active">Gallery</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Gallery</h1>
+            <p>Showcasing our journey, success stories, and professional development activities</p>
+        </div>
+    </section>
+
+    <!-- Gallery Filters -->
+    <section class="gallery-filters">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="success-stories">Success Stories</button>
+                <button class="filter-btn" data-filter="workshops">Workshops</button>
+                <button class="filter-btn" data-filter="events">Events</button>
+                <button class="filter-btn" data-filter="team">Team</button>
+                <button class="filter-btn" data-filter="office">Office</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Grid -->
+    <section class="gallery-section">
+        <div class="container">
+            <div class="gallery-grid" id="gallery-grid">
+                <!-- Success Stories -->
+                <div class="gallery-item" data-category="success-stories">
+                    <div class="gallery-image">
+                        <svg viewBox="0 0 400 300" class="placeholder-svg">
+                            <rect width="100%" height="100%" fill="url(#gradient1)" />
+                            <circle cx="150" cy="120" r="40" fill="white" opacity="0.8" />
+                            <rect x="220" y="100" width="120" height="8" fill="white" opacity="0.6" />
+                            <rect x="220" y="120" width="80" height="6" fill="white" opacity="0.6" />
+                            <rect x="220" y="140" width="100" height="6" fill="white" opacity="0.6" />
+                            <defs>
+                                <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#2563eb" />
+                                    <stop offset="100%" style="stop-color:#10b981" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                        <div class="gallery-overlay">
+                            <i class="fas fa-expand-alt"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-info">
+                        <h3>Career Transition Success</h3>
+                        <p>Client successfully transitioned from marketing to data science</p>
+                        <span class="gallery-tag">Success Story</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="workshops">
+                    <div class="gallery-image">
+                        <svg viewBox="0 0 400 300" class="placeholder-svg">
+                            <rect width="100%" height="100%" fill="url(#gradient2)" />
+                            <rect x="50" y="50" width="300" height="200" fill="white" opacity="0.1" rx="10" />
+                            <circle cx="120" cy="120" r="15" fill="white" opacity="0.8" />
+                            <circle cx="200" cy="120" r="15" fill="white" opacity="0.8" />
+                            <circle cx="280" cy="120" r="15" fill="white" opacity="0.8" />
+                            <rect x="80" y="180" width="240" height="4" fill="white" opacity="0.6" />
+                            <defs>
+                                <linearGradient id="gradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#f59e0b" />
+                                    <stop offset="100%" style="stop-color:#d97706" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                        <div class="gallery-overlay">
+                            <i class="fas fa-expand-alt"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-info">
+                        <h3>Resume Writing Workshop</h3>
+                        <p>Interactive workshop on creating compelling resumes</p>
+                        <span class="gallery-tag">Workshop</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="events">
+                    <div class="gallery-image">
+                        <svg viewBox="0 0 400 300" class="placeholder-svg">
+                            <rect width="100%" height="100%" fill="url(#gradient3)" />
+                            <circle cx="100" cy="100" r="20" fill="white" opacity="0.8" />
+                            <circle cx="200" cy="80" r="25" fill="white" opacity="0.9" />
+                            <circle cx="300" cy="120" r="18" fill="white" opacity="0.7" />
+                            <circle cx="150" cy="180" r="22" fill="white" opacity="0.8" />
+                            <circle cx="250" cy="200" r="20" fill="white" opacity="0.8" />
+                            <defs>
+                                <linearGradient id="gradient3" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#8b5cf6" />
+                                    <stop offset="100%" style="stop-color:#a855f7" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                        <div class="gallery-overlay">
+                            <i class="fas fa-expand-alt"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-info">
+                        <h3>Career Fair 2024</h3>
+                        <p>Annual career fair connecting professionals with opportunities</p>
+                        <span class="gallery-tag">Event</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="team">
+                    <div class="gallery-image">
+                        <svg viewBox="0 0 400 300" class="placeholder-svg">
+                            <rect width="100%" height="100%" fill="url(#gradient4)" />
+                            <rect x="50" y="50" width="300" height="200" fill="white" opacity="0.1" rx="15" />
+                            <circle cx="150" cy="130" r="25" fill="white" opacity="0.8" />
+                            <circle cx="250" cy="130" r="25" fill="white" opacity="0.8" />
+                            <rect x="120" y="180" width="60" height="8" fill="white" opacity="0.6" />
+                            <rect x="220" y="180" width="60" height="8" fill="white" opacity="0.6" />
+                            <defs>
+                                <linearGradient id="gradient4" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#ec4899" />
+                                    <stop offset="100%" style="stop-color:#be185d" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                        <div class="gallery-overlay">
+                            <i class="fas fa-expand-alt"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-info">
+                        <h3>Our Expert Team</h3>
+                        <p>Meet the professionals behind CareerPath Pro</p>
+                        <span class="gallery-tag">Team</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="office">
+                    <div class="gallery-image">
+                        <svg viewBox="0 0 400 300" class="placeholder-svg">
+                            <rect width="100%" height="100%" fill="url(#gradient5)" />
+                            <rect x="60" y="80" width="80" height="120" fill="white" opacity="0.2" />
+                            <rect x="160" y="60" width="80" height="140" fill="white" opacity="0.3" />
+                            <rect x="260" y="100" width="80" height="100" fill="white" opacity="0.2" />
+                            <rect x="70" y="90" width="15" height="15" fill="white" opacity="0.8" />
+                            <rect x="100" y="90" width="15" height="15" fill="white" opacity="0.8" />
+                            <defs>
+                                <linearGradient id="gradient5" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#06b6d4" />
+                                    <stop offset="100%" style="stop-color:#0891b2" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                        <div class="gallery-overlay">
+                            <i class="fas fa-expand-alt"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-info">
+                        <h3>Modern Office Space</h3>
+                        <p>Our welcoming and professional office environment</p>
+                        <span class="gallery-tag">Office</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="success-stories">
+                    <div class="gallery-image">
+                        <svg viewBox="0 0 400 300" class="placeholder-svg">
+                            <rect width="100%" height="100%" fill="url(#gradient6)" />
+                            <polygon points="200,50 250,150 150,150" fill="white" opacity="0.8" />
+                            <circle cx="200" cy="200" r="30" fill="white" opacity="0.7" />
+                            <rect x="120" y="250" width="160" height="6" fill="white" opacity="0.6" />
+                            <defs>
+                                <linearGradient id="gradient6" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#10b981" />
+                                    <stop offset="100%" style="stop-color:#059669" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                        <div class="gallery-overlay">
+                            <i class="fas fa-expand-alt"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-info">
+                        <h3>Executive Promotion</h3>
+                        <p>Client achieved executive leadership role after coaching</p>
+                        <span class="gallery-tag">Success Story</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="workshops">
+                    <div class="gallery-image">
+                        <svg viewBox="0 0 400 300" class="placeholder-svg">
+                            <rect width="100%" height="100%" fill="url(#gradient7)" />
+                            <rect x="100" y="80" width="200" height="140" fill="white" opacity="0.1" rx="10" />
+                            <circle cx="150" cy="120" r="12" fill="white" opacity="0.8" />
+                            <circle cx="200" cy="120" r="12" fill="white" opacity="0.8" />
+                            <circle cx="250" cy="120" r="12" fill="white" opacity="0.8" />
+                            <rect x="130" y="160" width="140" height="4" fill="white" opacity="0.6" />
+                            <rect x="130" y="180" width="100" height="4" fill="white" opacity="0.6" />
+                            <defs>
+                                <linearGradient id="gradient7" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#f59e0b" />
+                                    <stop offset="100%" style="stop-color:#d97706" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                        <div class="gallery-overlay">
+                            <i class="fas fa-expand-alt"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-info">
+                        <h3>Interview Skills Training</h3>
+                        <p>Intensive training session on interview techniques</p>
+                        <span class="gallery-tag">Workshop</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="events">
+                    <div class="gallery-image">
+                        <svg viewBox="0 0 400 300" class="placeholder-svg">
+                            <rect width="100%" height="100%" fill="url(#gradient8)" />
+                            <rect x="50" y="100" width="300" height="100" fill="white" opacity="0.1" rx="10" />
+                            <circle cx="120" cy="130" r="8" fill="white" opacity="0.8" />
+                            <circle cx="160" cy="130" r="8" fill="white" opacity="0.8" />
+                            <circle cx="200" cy="130" r="8" fill="white" opacity="0.8" />
+                            <circle cx="240" cy="130" r="8" fill="white" opacity="0.8" />
+                            <circle cx="280" cy="130" r="8" fill="white" opacity="0.8" />
+                            <rect x="80" y="170" width="240" height="4" fill="white" opacity="0.6" />
+                            <defs>
+                                <linearGradient id="gradient8" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#8b5cf6" />
+                                    <stop offset="100%" style="stop-color:#7c3aed" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                        <div class="gallery-overlay">
+                            <i class="fas fa-expand-alt"></i>
+                        </div>
+                    </div>
+                    <div class="gallery-info">
+                        <h3>Networking Event</h3>
+                        <p>Monthly networking gathering for professionals</p>
+                        <span class="gallery-tag">Event</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox-content">
+            <span class="lightbox-close">&times;</span>
+            <div class="lightbox-image-container">
+                <img src="" alt="" class="lightbox-image">
+                <div class="lightbox-info">
+                    <h3 class="lightbox-title"></h3>
+                    <p class="lightbox-description"></p>
+                </div>
+            </div>
+            <div class="lightbox-navigation">
+                <button class="lightbox-prev"><i class="fas fa-chevron-left"></i></button>
+                <button class="lightbox-next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Create Your Success Story?</h2>
+                <p>Join our community of successful professionals and start your career transformation today.</p>
+                <div class="cta-buttons">
+                    <a href="contact.html" class="btn btn-primary">Get Started</a>
+                    <a href="services.html" class="btn btn-outline">View Services</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3><i class="fas fa-chart-line"></i> Sachii Career Coach</h3>
+                    <p>Empowering professionals to achieve their career goals through expert guidance and personalized
+                        counseling services.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="https://www.youtube.com/@sachiicareercoach-s222" target="_blank">YouTube
+                                Channel</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+
+                        <li><a href="services.html">Life Coaching</a></li>
+                        <li><a href="services.html">Career Counselling & Coaching</a></li>
+                        <li><a href="services.html">Handwriting Analysis & Graphotherapy</a></li>
+                        <li><a href="services.html">Mind Training and Enhancement</a></li>
+
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="contact-info">
+
+
+                        <p><i class="fas fa-phone"></i> 7353722255, 7353319692</p>
+                        <p><i class="fas fa-envelope"></i> sachpatil.online@gmail.com</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Hubli-Dharwad Karnataka India</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Sachii Career Coach. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- JavaScript Files -->
+    <script src="js/navigation.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/gallery.js"></script>
+</body>
+
+</html>

@@ -1,5 +1,5 @@
 /**
- * Form validation and submission handling for CareerPath Pro contact form
+ * Form validation and submission handling for Sachii Career Coach contact form
  * Provides real-time validation, error display, and form submission
  */
 

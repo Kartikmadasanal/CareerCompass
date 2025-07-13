@@ -569,6 +569,75 @@ p {
     font-size: 1.25rem;
 }
 
+/* Gallery Preview Section */
+.gallery-preview {
+    padding: var(--section-padding);
+    background-color: var(--background-white);
+}
+
+.gallery-preview-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.preview-item {
+    background-color: var(--background-light);
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: var(--shadow-medium);
+    transition: all var(--transition-medium);
+}
+
+.preview-item:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-large);
+}
+
+.preview-image {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.preview-overlay {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    z-index: 2;
+}
+
+.preview-tag {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    font-size: 0.75rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.preview-item h3 {
+    padding: 1.5rem 1.5rem 0.5rem;
+    margin: 0;
+    color: var(--text-dark);
+    font-size: 1.25rem;
+}
+
+.preview-item p {
+    padding: 0 1.5rem 1.5rem;
+    margin: 0;
+    color: var(--text-medium);
+    line-height: 1.5;
+}
+
+.gallery-cta {
+    text-align: center;
+}
+
 /* YouTube Section */
 .youtube-section {
     padding: var(--section-padding);
@@ -720,7 +789,7 @@ p {
 
 /* Footer */
 .footer {
-    background-color: var(--text-dark);
+    background-color: rgba(0, 0, 0, 0.1);
     color: white;
     padding: 3rem 0 1rem;
 }

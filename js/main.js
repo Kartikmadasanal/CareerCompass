@@ -1,5 +1,5 @@
 /**
- * Main JavaScript functionality for CareerPath Pro website
+ * Main JavaScript functionality for Sachii Career Coach website
  * Handles animations, counters, FAQ interactions, and general page enhancements
  */
 

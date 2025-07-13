@@ -1,5 +1,5 @@
 /**
- * Navigation functionality for CareerPath Pro website
+ * Navigation functionality for Sachii Career Coach website
  * Handles mobile menu toggle, active link highlighting, and smooth scrolling
  */
 
